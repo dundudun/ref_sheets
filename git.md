@@ -1,5 +1,9 @@
 ## Helper sheet
 
+### auth
+curl -sS https://webi.sh/gh | sh
+gh auth login
+
 ### Config
 ```#bash
 git config --get user.name
