@@ -12,6 +12,7 @@ git config --list
 git config pull.rebase false   #sets to merge on pull
 git config --local rerere.enabled false/true   #disables/enables rerere
 ~/.gitconfig     #location of global gitconfig
+.git/info/exclude    #stop tracking files locally
 ```
 
 ### Working with Git
@@ -20,6 +21,7 @@ git init         #create hidden dir .git locally
   .git/objects   #location of all git objects  
 git status  
 git add . (or <smth>)  
+git rm -r --cached <file>  #remove from tracking system
 git commit -m <message_here>  
   git commit --amend  # rename commit message
 git log --oneline  
