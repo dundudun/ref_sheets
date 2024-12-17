@@ -76,8 +76,11 @@ Ctrl+w              close active editor
 --Ctrl+Fn+Down      move to next file in tabspace
 --Ctrl+Fn+Up        move to previous file in tabspace
 
-Ctrl+Alt+Right      move editor to right
-Ctrl+Alt+Left       move editor to left
+Ctrl+Alt+Right            move editor to right
+Ctrl+Alt+Left             move editor to left
+
+Ctrl+Alt+[ Ctrl+Alt+[     focus on left group
+Ctrl+Alt+] Ctrl+Alt+]     focus on right group
 
 
 ## Not set
