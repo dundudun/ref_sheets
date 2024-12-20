@@ -76,8 +76,12 @@ git stash
   git stash apply stash@{1} # take specific stash
 
 git diff <commitish_hash>
-  git diff HEAD~1  # diff current state with previous commit
+  git diff HEAD~1           # diff current state (working dir and staged) with last commit
   git diff commit1 commit2
+  git diff HEAD file_path   # diff for specific file
+  git diff --cached         # diff between staging area and last commit
+  git diff --stat           # short diff working dir
+  git diff HEAD --stat      # short diff current state (working dir and staged)
 
 git cherry-pich commit_hash
 

@@ -6,10 +6,11 @@ Ctrl+k Ctrl+s       open keybindings configurate page
 Fn+Right            to end of line
 Fn+Left             to start of line
 Ctrl+Shift+\        go to bracket
+Alt+F8              go to next problem/error
+
 Alt+F12             peek definition (close it?)
 F12                 go to definition
 Ctrl+G              go to specific line
-Alt+F8              go to next problem/error
 F4                  go to next reference?
 Ctrl+Alt+F12        peek implementation (close it?)
 Ctrl+F12            go to implementation?
@@ -73,14 +74,16 @@ Ctrl+e              open file
 Ctrl+n              create new file
 Ctrl+w              close active editor
 
---Ctrl+Fn+Down      move to next file in tabspace
---Ctrl+Fn+Up        move to previous file in tabspace
+Ctrl+Shift+m        toggle Problems
+
+Shift+Alt+[         move to next file in tabspace
+Shift+Alt+]         move to previous file in tabspace
 
 Ctrl+Alt+Right            move editor to right
 Ctrl+Alt+Left             move editor to left
 
-Ctrl+Alt+[ Ctrl+Alt+[     focus on left group
-Ctrl+Alt+] Ctrl+Alt+]     focus on right group
+Ctrl+Alt+; Ctrl+Alt+;     focus on left group
+Ctrl+Alt+' Ctrl+Alt+'     focus on right group
 
 
 ## Not set
